@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+    color: #ffc233;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../bgi.png"); 
+    background-repeat: no-repeat;  
+    background-size: cover;;
+    /* opacity: 0.9; */
+}
+nav{
+    margin: 10px 0px 0px -100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 100px;
+    width: 100%;
+}
+.logo{
+    /* padding: 30px 0px 0px 0px; */
+    margin: 30px 0px 0px 20px;
+    height: 10px;
+    width: 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    gap: 100px;
+    margin-top: 50px;
+} 
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration:none;
+    color: #ffc233;;
+}
+a:hover{
+    text-decoration: underline;
+    color: #FF515F;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+button{
+    background-color: #FF515F;
+    color: white;
+    padding: 7px 20px 7px 20px;
+    border: 1px solid #FF515F;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #FF515F;
+    background-color: #ffffff;
+}
+
+.od{
+    position: absolute;
+    margin: 45px 0px 0px 100px;
+}
+.readb{
+    position: relative;
+    margin-top: 30px;
+    background-color: #FF515F;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #FF515F;
+    font-size: 18px;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    font-weight: 900;
+    font-size: 90px;
+    font-style: normal;
+}
+main{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+}
+
+.scroll{
+    position: relative;
+    margin-top: 400px;
+    height: 150px;
+    width: 150px;
+}
