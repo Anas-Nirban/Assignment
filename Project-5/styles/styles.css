@@ -1,0 +1,221 @@
+*{
+    background-color: #111827;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navi{
+    display: flex;
+    justify-content: end;
+    
+}
+.hamb{
+    display: none;
+}
+
+a:hover{
+    cursor: pointer;
+    background: purple;
+    border-radius: 10%;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.hand{
+    height: 20px;
+    width: 20px;
+    margin-top: 200px;
+    margin-left: 225px;
+}
+
+h1{
+    margin-left: 250px;
+    margin-top: -25px;
+    color: #fff;
+    font-size: 18px;
+}
+h1 span{
+    font-size: 35px;
+}
+
+h2{
+    margin-left: 250px;
+    margin-top: 0px;
+    color: #fff;
+    font-size: 18px; 
+    color: yellow;
+}
+h3{
+    position: absolute;
+    display: inline;
+    color: #fff;
+    border-bottom: 3.5px solid blue;
+    margin-top: 200px;
+    margin-left: -420px; 
+}
+.pci{
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin-top: -250px;
+    margin-left: 600px;
+}
+
+.img{
+    height: 250px;
+    width: 250px;
+}
+.projects{
+    position: absolute;
+    margin-top: 250px;
+    display: grid;
+    grid-template-columns: auto auto;
+    color: #fff;
+    margin-left: 350px;
+    padding: 5px;
+    column-gap: 5px;
+    text-align: center;
+}
+h4{
+    display: inline;
+    position: absolute;
+    color: #fff;
+    margin-top: 860px;
+    margin-left: -420px;
+    border-bottom: 3.5px solid blue;
+}
+.i1{
+    height: 20px;
+    width: 20px;
+}
+.i2{
+    height: 20px;
+    width: 20px;
+}
+.i3{
+    height: 20px;
+    width: 20px;
+}
+
+.icon{
+    position: absolute;
+    display: flex;
+    gap: 8px;
+    margin-left: 580px;
+    margin-top: 900px;
+}
+
+@media screen and (max-width: 425px){
+    *{
+        background-color: #111827;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    ul{
+        display: none;
+    }
+    .hamb{
+        position: absolute;
+        display: inline;
+        margin-top: 20px;
+        margin-right: 320px;
+    }
+    .hand{
+        position: relative;
+        height: 50px;
+        width: 50px;
+        margin-top: 40px;
+        margin-left:190px;   
+    }
+    h1{
+        margin-left: 175px;
+        margin-top: 10px;
+        color: #fff;
+        font-size: 18px;
+    }
+    h1 span{
+        margin-left: -75px;
+        font-size: 35px;
+    }
+    h2{
+        margin-left: 175px;
+        margin-top: 0px;
+        color: #fff;
+        font-size: 18px; 
+        color: yellow;
+    }
+    .pci{
+        height: 200px;
+        width: 200px;
+        float: right;
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+    h3{
+        display: inline;
+        color: #fff;
+        font-size: 25px;
+        border-bottom: 3.5px solid blue;
+        margin-top: 235px;
+        margin-left: 180px; 
+    }
+    .img{
+        height: 150px;
+        width: 150px;
+    }
+    .projects{
+        position: absolute;
+        margin-top: 280px;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: auto auto;
+        color: #fff;
+        margin-left: 145px;
+        padding: 5px;
+        column-gap: 5px;
+        text-align: center;
+    }
+    h4{
+        display: inline;
+        position: absolute;
+        color: #fff;
+        margin-top: 1000px;
+        margin-left: 160px;
+        font-size: 25px;
+        border-bottom: 3.5px solid blue;
+    }
+    .i1{
+        height: 20px;
+        width: 20px;
+    }
+    .i2{
+        height: 20px;
+        width: 20px;
+    }
+    .i3{
+        height: 20px;
+        width: 20px;
+    }
+    
+    .icon{
+        position: absolute;
+        display: flex;
+        gap: 8px;
+        margin-left: 175px;
+        margin-top: 1055px;
+    }
+}
