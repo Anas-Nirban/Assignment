@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F0F4F5;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 800px;
+    margin-left:100px;
+    margin-top: 50px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 25px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.top{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+p{
+    margin-top: -10px;
+    margin-left: 112px;
+    font-weight: 900;
+    font-size: 35px;
+}
+span{
+    margin-top: 20px;
+    margin-left: 112px;
+    display: block;
+    color: #AEAFB0;
+}
+.steth{
+    position: absolute;
+    margin-left: 215px;
+    margin-top: -300px;
+}
+
+.appo{
+    height: 40px;
+    width: 240px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 112px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #22BC7E;
+}
+.bot{
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 770px;
+}
+.ms{
+    margin-left: 810px;
+}
+
+.icon{
+    float: right;
+    margin-right: 0px;
+    margin-top: -400px;
+}
+.logo{
+    margin-right: 0px;
+    margin-top: 100px;
+}
+.doct{
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -600px;
+}
+.yello{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 210px;
+}
