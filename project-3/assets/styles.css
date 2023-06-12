@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100vw;
+    
+}
+
+img{
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 25px;
+    width: 100px;
+    height: 30px;
+}
+.navi{
+    position: absolute;
+    height: 12vh;
+    width: 100vw;
+    margin-top: -30px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    column-gap: 100;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    margin: 15px 10px 0px 100px;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}    
+.tok{
+    position: relative;
+    margin: 33px;
+    margin-left: 950px;
+    margin-top: 45px;
+    padding: 7px 25px 7px 25px;
+    color: white;
+    background-color: #B90EC5;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    background-color:transparent;
+    font-size: 65px;
+    font-weight: 00;
+    margin-top: -150px;
+}
+p{
+    color: white;
+    background-color:transparent;
+    font-size: 25px;
+
+}
+.early{
+    margin: 60px;
+    padding: 8px 16px 8px 16px;
+    color: white;
+    background-color: #B90EC5;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-left: 20px;
+    border-color: #B90EC5;
+    border-style: hidden;
+    cursor: pointer;
+}
+.con{
+    background-color: transparent;
+}
+    
